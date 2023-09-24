@@ -463,10 +463,6 @@ footer{
 }
 
 
-.text-footer:hover{
-    color: var(--color-iris);  
-}
-
 .section-ourteam{
     background-color: var(--color-cloud);
 }
@@ -723,9 +719,9 @@ svg {
     cursor: pointer;
 }
 
-   .input-field{
+.input-field{
     max-width: 380px;
-    width: 100%;
+    width: 10;
     height: 55px;
     background-color: #f0f0f0;
     margin: 10px 0;
@@ -752,26 +748,8 @@ input[type=button], input[type=submit]
       font-weight: 700;
       font-size: 16px;
     }
-    input[type=reset] {
-      background-color: #ffc107;
-      border: none;
-      border-radius: 5px;
-      color: black;
-      padding: 10px 20px;
-      text-decoration: none;
-      margin: 2px 2px;
-      cursor: pointer;
-    }
-    input [type="file"] {
-      background-color: #007bff;
-      border-radius: 2px;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-.container{
+    
+.container-modal{
     position:relative;
     width: 100%;
     background-color: #fff;
@@ -786,7 +764,7 @@ input[type=button], input[type=submit]
     top: 0px;
     left: 0px;
 }
-h4,{
+h4{
 text-align: left;
 }
 
@@ -798,7 +776,7 @@ form, user-contact{
     font-family: Roboto;
 }
 .comment-class{
-    margin: 10px 0
+    margin: 10px 0;
     resize: none;
 }
 
@@ -816,4 +794,13 @@ form, user-contact{
     border-radius: 2px;
     margin-top: 4px;
     margin-right: 8px;
+} 
+
+.footer-content{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.footer-content,.social-media-text{
+    display:inline-block;
 }

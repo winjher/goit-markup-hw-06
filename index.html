@@ -437,19 +437,22 @@
     </main>
     <footer class="section section-footer">
         <div class="container container-footer">
-
-            <p class="text-footer">
-                <a href="" class="text-web logo">
-                    WEB
-                </a>
-                <a href="" class="text-studio logo">
-                    STUDIO
-                </a>
-                <br>
-                Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-            </p>
-
-            <ul class="social-media-list-footer">
+<ul>
+    <li class="footer-content">
+        <p class="text-footer">
+            <a href="" class="text-web logo">
+                WEB
+            </a>
+            <a href="" class="text-studio logo">
+                STUDIO
+            </a>
+            <br>
+            Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+        </p>
+    </li>
+    <li class="footer-content">
+        <div>
+            <ul>
                 <p class="social-media-text">Social media</p>
                 <li class="social-media-link">
                     <a class="footer-link" href="#">
@@ -469,7 +472,7 @@
                             
                         </svg>
                     </a>
-
+        
                 </li>
                 <li class="social-media-link">
                     <a class="footer-link" href="#">
@@ -496,10 +499,10 @@
                 <li class="social-media-link">
                     <a class="footer-link" href="#"> 
                         
-                        <svg class="icon icon-linkedin2">
+                        <!-- <svg class="icon icon-linkedin2">
                         <use xlink:href="images/icons.svg#icon-linkedin2"></use>
-                        </svg>
-
+                        </svg> -->
+        
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                             viewBox="0 0 32 32">
                             <title>linkedin2</title>
@@ -511,13 +514,52 @@
                         </svg>
                     </a>
                 </li>
+            </li>
             </ul>
-
+        </div>
+       
+    <li class="footer-content">
+        <label for="">Email</label>
+        <input type="text" name="email" id="email" required>
+        <button class="button" type="button">Send</button>
+    </li>
+</ul>
+            
 
         </div>
     </footer>
     <div class="modal is-hidden" data-modal>
         <div class="modal-content">
+            <div class="container-modal">
+                <div id="" class="forms-container">
+                    
+                    <h4>Leave your information and we'll call you back.
+                    </h4>
+                
+               
+            <form class="user-contact" action="post" method="get" accept-charset="utf-8">
+            
+                <label for="fullname">Name</label>
+            
+                <input type="text" class="input-field" placeholder="Full Name">
+            
+                <label for="phone" required>Telephone</label>
+            
+                <input type="number" class="input-field" required="">
+            
+                <label for="email" class="email-class">Email</label>
+            
+                <input type="email" class="input-field" required>
+            
+                <label for="username" class="comment-class" required>Comments</label>
+                <textarea name="comments" id=comments rows="8" cols="40"></textarea>
+                <input type="checkbox" name="" id="" class="user-checkox-icon" />
+                I agree with the newsletter and the Terms and Conditions
+                <button type="button" class="user-contact-submit">Send <img src="" alt="" srcset=""></button>
+            
+            </form>
+        </div>
+    </div>
             <button class="modal-close" data-modal-close>
                 <img src="images/icons/close.svg" alt="" srcset="">
             </button>
