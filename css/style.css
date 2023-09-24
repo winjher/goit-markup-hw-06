@@ -450,7 +450,7 @@ footer{
     font-family: Raleway;
 }
 .social-media-list-footer,
-.social-media-text,
+.social-media-text,.footer-email-text,
 .text-footer{
     font-size: 16px;
     font-weight: 400;
@@ -571,13 +571,7 @@ footer{
     margin: 10px;
     border-radius: 50px 50px;
 }
-.social-media-text,
-.social-media-list-footer{
-    display: block;
-    margin-left: 200px;
-    
 
-}
 .container-footer {
     display: flex;
     
@@ -720,19 +714,20 @@ svg {
 }
 
 .input-field{
-    max-width: 380px;
+    
     width: 10;
-    height: 55px;
+    height: 50px;
     background-color: #f0f0f0;
     margin: 10px 0;
     border-radius: 4px;
     display: grid;
     grid-template-columns: 15% 85%;
     text-align: left;
+    padding: 8px;
     
 }
 .user-contact-submit,
-input[type=button], input[type=submit]
+input[type=button]
     {
       background-color: #007bff;
       border: none;
@@ -748,7 +743,19 @@ input[type=button], input[type=submit]
       font-weight: 700;
       font-size: 16px;
     }
-    
+
+input[type=textare],
+input[type=number],
+input[type=email],
+input[type=text]{
+    width: 360px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container-modal{
     position:relative;
     width: 100%;
@@ -759,16 +766,37 @@ input[type=button], input[type=submit]
 }
 .forms-container{
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 584px;
+    width: 408px;
     top: 0px;
     left: 0px;
 }
+label{
+    color: var(--LIGHT-SLATE, #8E8F99);
+    margin-left: 24px;
+
+/* Small Text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: 0.48px;
+}
 h4{
-text-align: left;
+    color: var(--color-navyblue);
+    text-align: center;
+    padding-top: 72px;
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
 
-form, user-contact{
+form, .user-contact{
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -801,6 +829,30 @@ form, user-contact{
     text-decoration: none;
     display: inline-block;
 }
-.footer-content,.social-media-text{
-    display:inline-block;
+
+
+.footer-subscribe{
+    background-color: var(--color-navyblue);
+    border: unset;
+    border-radius: 4px;
+    border: 1px solid var(--color-white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.button-send{
+    color: var(--color-white);
+    background-color: var(--color-iris);
+    margin: 24px;
+    padding: 8px 24px;
+    border-radius: 4px;
+
+}
+
+.social-media-text,
+.social-media-list-footer,.footer-content{
+    display: flex;
+    
+    
+
 }
