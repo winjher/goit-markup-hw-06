@@ -588,6 +588,30 @@ svg {
     text-align : center;
  }
 
+ .icon::after{
+    content: "";
+    width:20px;
+    height:20px;
+    background-image: url();
+    background-repeat: no-repeat;
+ }
+
+ .icon-instagram::after{
+    background-position: 0px 0px;
+ }
+
+ .icon-facebook::after{
+    background-position: 0px 0px;
+ }
+
+ .icon-twitter::after{
+    background-position: 0px 0px;
+ }
+
+ .icon-linkedin::after{
+    background-position: 0px 0px;
+ }
+
  .social-media-text{
     margin: 8px;
 
@@ -851,8 +875,6 @@ form, .user-contact{
 
 .social-media-text,
 .social-media-list-footer,.footer-content{
-    display: flex;
-    
-    
+    display: flex; 
 
 }
