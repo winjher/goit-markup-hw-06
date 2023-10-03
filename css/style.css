@@ -781,19 +781,14 @@ footer{
 
 
 
-.input-field{
-    
-    width: 10;
-    height: 50px;
-    background-color: #f0f0f0;
-    margin: 10px 0;
-    border-radius: 4px;
-    display: grid;
-    grid-template-columns: 15% 85%;
-    text-align: left;
-    padding: 8px;
-    
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
 }
+
 .user-contact-submit,
 input[type=button]
     {
@@ -811,13 +806,20 @@ input[type=button]
       font-weight: 700;
       font-size: 16px;
     }
+.input[type=textarea]{
+    width: 360px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-input[type=textare],
 input[type=number],
 input[type=email],
 input[type=text]{
     width: 360px;
-    height: 58px;
+    height: 40px;
     justify-content: center;
     align-items: center;
     margin-left: auto;
@@ -839,17 +841,32 @@ input[type=text]{
     top: 0px;
     left: 0px;
 }
-label{
-    color: var(--LIGHT-SLATE, #8E8F99);
-    margin-left: 24px;
+.user-info{
+    color: var(--color-slate, #8E8F99);
+    margin-left: 84px;
+    padding: 8px;
+    /* Small Text */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 116.667% */
+    letter-spacing: 0.48px;
+}
 
-/* Small Text */
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 14px; /* 116.667% */
-letter-spacing: 0.48px;
+.user-info-comments{
+    color: var(--color-slate, #8E8F99);
+    margin-left: 84px;
+    padding: 8px;
+    /* Small Text */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 116.667% */
+    letter-spacing: 0.48px;
+    width: 360px;
+    height: 120px;
 }
 h4{
     color: var(--color-navyblue);
@@ -907,13 +924,12 @@ form, .user-contact{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 }
-
 .button-subscribe{
     background-color: var(--color-iris);
     margin: 24px;
     padding: 8px 24px;
     border-radius: 4px;
-    
+
 }
 
 .button-send{
