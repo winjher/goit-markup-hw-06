@@ -908,7 +908,8 @@ form, .user-contact{
 
 }
 
-.button-send{
+
+.button-subscribe{
     color: var(--color-white);
     background-color: var(--color-iris);
     margin: 24px;
@@ -921,4 +922,18 @@ form, .user-contact{
 .social-media-list-footer,.footer-content{
     display: flex; 
 
+}
+
+.svg-arrow{
+    width: 24px;
+    height: 24px;
+}
+
+.subscribe{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
 }
