@@ -908,14 +908,21 @@ form, .user-contact{
 
 }
 
-
 .button-subscribe{
-    color: var(--color-white);
     background-color: var(--color-iris);
     margin: 24px;
     padding: 8px 24px;
     border-radius: 4px;
+    
+}
 
+.button-send{
+    width: 105px;
+    height: 24px;
+    background-color: var(--color-iris);
+    margin: 24px;
+    padding: 8px 24px;
+    border-radius: 4px;
 }
 
 .social-media-text,
@@ -936,4 +943,5 @@ form, .user-contact{
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
+    color: var(--color-white);
 }
