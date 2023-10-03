@@ -934,12 +934,21 @@ form, .user-contact{
 }
 
 .button-send{
-    width: 105px;
-    height: 24px;
-    background-color: var(--color-iris);
-    margin: 24px;
-    padding: 8px 24px;
     border-radius: 4px;
+    background: var(--color-iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--color-white, #FFF);
+    text-align: center;
+    width: 105px;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .social-media-text,
@@ -976,8 +985,17 @@ form, .user-contact{
 .info-terms{
     margin-left:auto;
     margin-right: auto;
+    width: 338px;
+    flex-shrink: 0;
 }
 .footer-field{
     width: 264px;
     height: 40px;
+}
+
+.user-icons{
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    
 }
