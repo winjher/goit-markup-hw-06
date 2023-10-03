@@ -569,23 +569,30 @@
                     </h4>
                     <form class="user-contact" action="post" method="get" accept-charset="utf-8">
 
-                        <label for="fullname">Name</label>
+                        <label for="fullname" class="user-info">Name</label>
 
-                        <input type="text" class="input-field" placeholder="Full Name">
+                        <input type="text" class="input-field" placeholder="|">
 
-                        <label for="phone" required>Telephone</label>
+                        <label for="phone" class="user-info">Telephone</label>
 
                         <input type="number" class="input-field" required="">
 
-                        <label for="email">Email</label>
+                        <label for="email" class="user-info">Email</label>
 
                         <input type="email" class="input-field" required>
 
-                        <label for="username" class="comment-class" required>Comments</label>
-                        <textarea name="comments" id=comments rows="8" cols="40"></textarea>
+                        <label for="username" class="user-info">Comment</label>
+                        <textarea name="comments" id=comments rows="8" cols="20" class="user-info-comments"></textarea>
                         <input type="checkbox" name="" id="" class="user-checkox-icon" />
+                       
+                       <p class="info-terms">
                         I agree with the newsletter and the Terms and Conditions
-                        <button type="button" class="user-contact-submit">Send <img src="" alt="" srcset=""></button>
+                       </p> 
+                        <button type="button" class="button-send">
+                           <h4 class="subscribe">
+                            Send 
+                           </h4> 
+                        </button>
 
                     </form>
                 </div>
