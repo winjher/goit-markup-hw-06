@@ -843,7 +843,7 @@ input[type=text]{
 }
 .user-info{
     color: var(--color-slate, #8E8F99);
-    margin-left: 84px;
+    margin-left:18px;
     padding: 8px;
     /* Small Text */
     font-family: Roboto;
@@ -856,7 +856,8 @@ input[type=text]{
 
 .user-info-comments{
     color: var(--color-slate, #8E8F99);
-    margin-left: 84px;
+    margin-left:auto;
+    margin-right: auto;
     padding: 8px;
     /* Small Text */
     font-family: Roboto;
@@ -951,6 +952,16 @@ form, .user-contact{
     width: 24px;
     height: 24px;
 }
+.subscribe-btn{
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: var(--color-iris);
+    color: var(--color-white);
+}
 
 .subscribe{
     font-family: Roboto;
@@ -960,4 +971,13 @@ form, .user-contact{
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
     color: var(--color-white);
+}
+
+.info-terms{
+    margin-left:auto;
+    margin-right: auto;
+}
+.footer-field{
+    width: 264px;
+    height: 40px;
 }
