@@ -464,9 +464,7 @@ footer{
     display: flex;
     
 }
-/* footer, .text-footer {
-    display: block;
-} */
+
 
 
  .footer-link{
@@ -648,11 +646,25 @@ footer{
   }
 
 
+  .card-figure {
+    position: relative;
+    width: 360px;
+    /* check overflow: hidden */
+    overflow: hidden;
+    height: 100%;
+    transition: .5s;
+    
+  }
+
   .card-apps-image,.figcaption-cashless-text {
     display: block;
     width: 360px;
     /* height: 100%; */
     opacity: 1;
+    box-shadow: 0px 2px 18px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 24px 0px #2E2F4214;
+   
   }
 
   .figure-cashless-overlay {
@@ -694,9 +706,9 @@ footer{
     transform: translateY(0);
     transition: transform .1s;
     box-shadow: 0 0.1px;
-    transform: translate(transition-duration .1s);  
-  }
+    transform: translate(transition-duration .1s);   
 
+   }
 
 
   /* Modal */
@@ -728,7 +740,7 @@ footer{
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-    /*transform: translateY(-20px);*/
+    transform: translateY(-20px);
     
     
 }
@@ -857,7 +869,7 @@ input[type=text]{
 h4{
     color: var(--color-navyblue);
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
     /* Body Medium */
     font-family: Roboto;
     font-size: 16px;
@@ -966,7 +978,6 @@ form, .user-contact{
     letter-spacing: 0.64px;
     color: var(--color-white);
 }
-
 
 .info-terms{
     margin-left:auto;
