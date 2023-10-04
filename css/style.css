@@ -648,16 +648,6 @@ footer{
   }
 
 
-  .card-overlay {
-    position: relative;
-    width: 260px;
-    /* check overflow: hidden */
-    overflow: hidden;
-    height: 100%;
-    transition: .5s;
-    transform: translateY(0%)
-  }
-
   .card-apps-image,.figcaption-cashless-text {
     display: block;
     width: 360px;
@@ -674,6 +664,9 @@ footer{
     opacity: 1;
     transform: translateY(100%);
     transition: transform .1s;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
 
   }
 
@@ -701,17 +694,9 @@ footer{
     transform: translateY(0);
     transition: transform .1s;
     box-shadow: 0 0.1px;
-    transform: translate(transition-duration .1s); 
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
-    border: 1px solid var(--CLOUD, #F4F4FD);
-    background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
+    transform: translate(transition-duration .1s);  
+  }
+
 
 
   /* Modal */
