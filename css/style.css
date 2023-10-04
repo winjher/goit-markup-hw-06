@@ -103,7 +103,7 @@ address{
 
 
 .logo-webstudio::before{
-    content: "WEB";
+    content: "";
     color: var(--color-iris);
     height:4px;
 
