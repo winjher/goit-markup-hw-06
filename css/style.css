@@ -735,10 +735,9 @@ footer{
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-    transform: translateY(-20px);
-    
-    
+    transform: translateY(-20px); 
 }
+
 .modal-content{
     width: 408px;
     height: 584px;
@@ -777,6 +776,7 @@ footer{
     margin-left: 375px;
     top: 40rem;
     position: relative;
+
 }
 
 
@@ -996,8 +996,13 @@ form, .user-contact{
     margin-right: 0 auto;
     width: 338px;
     /* flex-shrink: 0; */
-    margin-left: 48px;
+    margin-left: 50px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    padding-bottom: 8px;
 }
+
 .footer-field{
     width: 264px;
     height: 40px;
