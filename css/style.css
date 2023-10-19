@@ -132,13 +132,7 @@ address{
     color: var(--color-slate);    
 }
 
-.active{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--color-ocean);
-}
+
 
 .line::after{
     content:"";
@@ -754,6 +748,8 @@ footer{
     background: var(--color-diary);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
+
+
 .modal-close{
     display: flex;
     align-items: center;
@@ -765,8 +761,8 @@ footer{
     right: 8px;
     top: 8px;
     position: absolute;
-    left:60%; /*-30px*/
-    top: 130px;
+    left: 830px;
+    top: 30px;
     cursor: pointer;
     fill: var(--color-cornflower);
     stroke-width: 1px;
@@ -866,10 +862,10 @@ input[type=text]{
     width: 360px;
     height: 120px;
 }
-h4{
+.modal-title{
     color: var(--color-navyblue);
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
     /* Body Medium */
     font-family: Roboto;
     font-size: 16px;
@@ -979,15 +975,24 @@ form, .user-contact{
     color: var(--color-white);
 }
 
-.info-terms{
-    margin-left:auto;
+.info-terms {
+    /* margin-left: auto; */
     margin-right: 0 auto;
     width: 338px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
+    margin-left: 48px;
 }
 .footer-field{
     width: 264px;
     height: 40px;
+}
+.footer-email {
+    border-radius: 4px;
+    border: 1px solid var(--color-white, #FFF);
+    opacity: 0.3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: var(--color-navyblue);
+    width: 300px;
 }
 
 .user-icons{

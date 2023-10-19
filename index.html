@@ -374,20 +374,7 @@
                             d="M72.1096 54.2675H72.9064V53.9954H72.1096V53.6445H72.9697V53.3724H71.7858V54.9719H73V54.6998H72.1096V54.2675Z" />
                     </svg>
                 </li>
-                <li class="client-link-item">
-                    <!-- <sgv class="company-svg">
-                        <use href="images/icons/icons.svg#icon-company2" />
-                    </sgv> -->
-                    <!-- <img class="image" src="images/icons/company2.svg" alt=""> -->
-                    <svg class="company-svg" xmlns="http://www.w3.org/2000/svg" width="104" height="56"
-                        viewBox="0 0 104 56">
-                        <path
-                            d="M25.9614 11.273C25.9547 8.2855 24.6356 5.42211 22.2929 3.30942C19.9502 1.19673 16.7746 0.00678345 13.4611 0V0C10.1466 0.00542712 6.96961 1.19477 4.62566 3.30761C2.28171 5.42045 0.961852 8.28461 0.955078 11.273V27.7472C0.955078 27.7472 25.9586 25.2364 25.9614 11.2755V11.273Z" />
 
-                        <path
-                            d="M5.07819 0.517944H5.07534C2.68969 0.517944 0.755737 2.26156 0.755737 4.41241V4.41498C0.755737 6.56583 2.68969 8.30944 5.07534 8.30944H5.07819C7.46384 8.30944 9.39779 6.56583 9.39779 4.41498V4.41241C9.39779 2.26156 7.46384 0.517944 5.07819 0.517944Z" />
-                    </svg>
-                </li>
                 <li class="client-link-item">
                     <!-- <img class="image" src="images/icons/foster.svg" alt=""> -->
                     <!-- <sgv class="company-svg">
@@ -421,6 +408,20 @@
                             d="M46.2861 12.4457L42.2587 9C38.6584 10.1887 35.562 12.2784 33.3747 14.9955C31.1875 17.7127 30.0112 20.9308 30 24.2285V24.2285C30.0135 27.8725 31.449 31.4085 34.0793 34.2769C36.7096 37.1454 40.3845 39.1824 44.5222 40.0656C48.216 36.2205 50.3786 31.4693 50.6958 26.5023C51.013 21.5353 49.4683 16.6113 46.2861 12.4457Z" />
                         <path
                             d="M74 26.9478C73.9854 22.6245 71.9689 18.4818 68.3908 15.4247C64.8127 12.3676 59.964 10.6447 54.9039 10.6322C52.5657 10.6301 50.2473 10.9988 48.0665 11.7194L72.7247 32.7873C73.569 30.925 74.0015 28.945 74 26.9478Z" />
+                    </svg>
+                </li>
+                <li class="client-link-item">
+                    <!-- <sgv class="company-svg">
+                        <use href="images/icons/icons.svg#icon-company2" />
+                    </sgv> -->
+                    <!-- <img class="image" src="images/icons/company2.svg" alt=""> -->
+                    <svg class="company-svg" xmlns="http://www.w3.org/2000/svg" width="104" height="56"
+                        viewBox="0 0 104 56">
+                        <path
+                            d="M25.9614 11.273C25.9547 8.2855 24.6356 5.42211 22.2929 3.30942C19.9502 1.19673 16.7746 0.00678345 13.4611 0V0C10.1466 0.00542712 6.96961 1.19477 4.62566 3.30761C2.28171 5.42045 0.961852 8.28461 0.955078 11.273V27.7472C0.955078 27.7472 25.9586 25.2364 25.9614 11.2755V11.273Z" />
+
+                        <path
+                            d="M5.07819 0.517944H5.07534C2.68969 0.517944 0.755737 2.26156 0.755737 4.41241V4.41498C0.755737 6.56583 2.68969 8.30944 5.07534 8.30944H5.07819C7.46384 8.30944 9.39779 6.56583 9.39779 4.41498V4.41241C9.39779 2.26156 7.46384 0.517944 5.07819 0.517944Z" />
                     </svg>
                 </li>
                 <li class="client-link-item">
@@ -553,7 +554,7 @@
             <div class="social-text-footer">
                 <p class="subscribe"> Subscribe</p><br>
                 <label for="email_add"></label>
-                <input type="text" class="footer-field" placeholder="Email" required>
+                <input type="email" class="footer-email" placeholder="Email" required>
                 <button type="button" class="subscribe-btn">
                     Subscribe
                     <img src="images/icons/arrow.svg" alt="" srcset="">
@@ -566,17 +567,17 @@
     <div class="modal fade is-hidden" data-modal id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-close btn-close">
-                    <img src="images/icons/close.svg" alt="">
+                <div class="modal-close">
+                    <img src="images/icons/close.svg" alt="close">
                 </div>
-
                 <div class="modal-header">
-                    <h5 class="modal-title" id="ModalLabel"></h5>
+                    <h4 class="modal-title" id="ModalLabel">
+                        Leave your information and we'll call you back.
+                    </h4>
                     <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h4>Leave your information and we'll call you back.
-                    </h4>
+                    
                     <form class="user-contact" action="post" method="get" accept-charset="utf-8">
 
                         <label for="fullname" class="user-info">Name</label>
@@ -599,16 +600,12 @@
                             I agree with the newsletter and the Terms and Conditions
                        </p>
                         <button type="button" class="button-send">
-
                             Send
-
                         </button>
 
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <p class="info-terms"></p>
-                </div>
+                
             </div>
         </div>
     </div>
