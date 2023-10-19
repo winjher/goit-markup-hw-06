@@ -761,7 +761,7 @@ footer{
     right: 8px;
     top: 8px;
     position: absolute;
-    left: 830px;
+    left: 710px;
     top: 30px;
     cursor: pointer;
     fill: var(--color-cornflower);
@@ -772,6 +772,11 @@ footer{
     flex-shrink: 0;
 }
 
+.close{
+    margin-left: 375px;
+    top: 40rem;
+    position: relative;
+}
 
 
 
