@@ -12,6 +12,7 @@
     --color-light-slate: #8E8F99;
     --font-family-open-sans:'Open sans',san-serif;
     --font-family-roboto: 'Roboto',san-serif;
+    --transition-duration: .1s;
 }
 
 *, *::before, *::after {
@@ -779,6 +780,16 @@ footer{
 }
 
 
+.input-field:focus {
+    width: 360px;
+    background-color: var(--color-cornflower);
+left: 8px;
+  }
+  
+.input-field:hover,
+.info-comments{
+    color: var(--color-iris);
+}
 
 button, input, optgroup, select, textarea {
     font-family: inherit;
