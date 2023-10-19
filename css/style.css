@@ -791,11 +791,10 @@ footer{
 .input-field:focus {
     width: 360px;
     background-color: var(--color-cornflower);
-left: 8px;
   }
   
 .input-field:hover,
-.info-comments{
+.info-comments:hover{
     color: var(--color-iris);
 }
 
